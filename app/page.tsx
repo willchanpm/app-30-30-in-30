@@ -75,7 +75,13 @@ export default function Home() {
 
           {/* Timeline Cards */}
           <div className="space-y-8 md:space-y-12">
-            {filteredApps.map((app, index) => (
+            {filteredApps.map((app, index) => {
+              // Find the original position of this app in the full apps array
+              // This ensures filtered apps show the correct day number
+              const originalIndex = apps.findIndex((a) => a.slug === app.slug);
+              const dayNumber = originalIndex + 1;
+
+              return (
               <div
                 key={app.slug}
                 className={`relative flex items-center ${
@@ -100,7 +106,7 @@ export default function Home() {
                       <div className="relative p-4 md:p-6">
                         <div className="flex items-center gap-3 mb-2 md:mb-3">
                           <span className="text-lg md:text-xl font-semibold text-blue-500 dark:text-blue-400">
-                            Day {index + 1}
+                            Day {dayNumber}
                           </span>
                           <h3 className="text-lg md:text-xl font-semibold text-gray-900 dark:text-white">
                             {app.title.replace(/^\d{2}\s*-\s*/, "")}
@@ -142,7 +148,8 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
