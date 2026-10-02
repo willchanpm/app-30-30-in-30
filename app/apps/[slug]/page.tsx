@@ -113,9 +113,7 @@ export default async function AppPage({ params }: PageProps) {
                 </span>
               ))}
               <a
-                href={`https://github.com/theproductcoach/app-${appNumber
-                  .toString()
-                  .padStart(2, "0")}`}
+                href={app.repository}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-3 py-1 text-sm font-medium bg-white/10 dark:bg-gray-800/30 text-gray-700 dark:text-gray-300 rounded-full backdrop-blur-sm border border-white/20 dark:border-gray-700/20 hover:bg-white/20 dark:hover:bg-gray-800/40 transition-colors duration-200 italic"

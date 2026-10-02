@@ -5,11 +5,13 @@ export interface App {
   learnings: string[];
   tech: string[];
   link?: string;
+  repository: string;
 }
 
 export const apps: App[] = [
   {
     title: "01 - What app should I build?",
+    repository: "https://github.com/willchanpm/app-01-what-app-should-i-build",
     slug: "what-app-should-i-build",
     description: "A simple GPT-powered app that helps you decide what to build next. Perfect for getting unstuck or generating ideas.",
     learnings: [
@@ -22,6 +24,7 @@ export const apps: App[] = [
   },
   {
     title: "02 - PM Coaching App",
+    repository: "https://github.com/willchanpm/app-02-pm-coaching-app",
     slug: "pm-coaching-app",
     description: "A product management coaching tool that helps PMs reflect, grow, and improve through structured prompts and feedback.",
     learnings: [
@@ -34,6 +37,7 @@ export const apps: App[] = [
   },
   {
     title: "03 - Flappy Bird Clone",
+    repository: "https://github.com/willchanpm/app-03-flappy-bird-clone",
     slug: "flappy-bird-clone",
     description: "A simple but fun browser-based clone of Flappy Bird using PNG's.",
     learnings: [
@@ -46,6 +50,7 @@ export const apps: App[] = [
   },
   {
     title: "04 - Rock Climber Coaching App",
+    repository: "https://github.com/willchanpm/app-04-climber-coaching-app",
     slug: "rock-climber-coaching",
     description: "A basic coaching app for rock climbers that logs progress and visualises outdoor climbing locations on a map.",
     learnings: [
@@ -58,6 +63,7 @@ export const apps: App[] = [
   },
   {
     title: "05 - MealMate Pantry Scanner",
+    repository: "https://github.com/willchanpm/app-05-pantry-scanner-app",
     slug: "mealmate-pantry-scanner",
     description: "An early version of a meal planning app that scans your pantry and suggests meals based on your preferences.",
     learnings: [
@@ -71,6 +77,7 @@ export const apps: App[] = [
   },
   {
     title: "06 - Pairsy",
+    repository: "https://github.com/willchanpm/app-06-pairsy",
     slug: "pairsy",
     description: "A proof-of-concept pairing app that mimics sign-up flows, stores session info in cookies, and mocks API responses for demo purposes.",
     learnings: [
@@ -84,6 +91,7 @@ export const apps: App[] = [
   },
   {
     title: "07 - Definitely Helpful AI",
+    repository: "https://github.com/willchanpm/app-07-definitely-helpful-ai",
     slug: "definitely-helpful-ai",
     description: "A cheeky April Fools app featuring an unhelpful AI that gives predetermined, often useless responses. Fun and quick to build.",
     learnings: [
@@ -96,6 +104,7 @@ export const apps: App[] = [
   },
   {
     title: "08 - Kilter Climbing Coach",
+    repository: "https://github.com/willchanpm/app-08-kilter-coach",
     slug: "kilter-coach",
     description: "A simple climbing app that generates a kilterboard training plan. Originally planned to personalise based on username and API data, but that will have to come later.",
     learnings: [
@@ -108,6 +117,7 @@ export const apps: App[] = [
   },
   {
     title: "09 - What's for Dinner?",
+    repository: "https://github.com/willchanpm/app-09-whats-for-dinner",
     slug: "whats-for-dinner",
     description: "A one-page GPT-powered app that helps you decide what to make for dinner based on available ingredients, style, and time.",
     learnings: [
@@ -120,6 +130,7 @@ export const apps: App[] = [
   },
   {
     title: "10 - HikeScout",
+    repository: "https://github.com/willchanpm/app-10-hikescout",
     slug: "hikescout",
     description: "A weekend hike trip planner that recommends routes from around the world, shows maps, and uses image generation for visual context.",
     learnings: [
@@ -132,6 +143,7 @@ export const apps: App[] = [
   },
   {
     title: "11 - Send Home",
+    repository: "https://github.com/willchanpm/app-11-send-home",
     slug: "send-home",
     description: "A currency conversion helper that compares the spot rate vs 6-month average to tell you whether to send money back home.",
     learnings: [
@@ -143,6 +155,7 @@ export const apps: App[] = [
   },
   {
     title: "12 - Coffee Buddy",
+    repository: "https://github.com/willchanpm/app-12-coffee-buddy",
     slug: "coffee-buddy",
     description: "An app that helps you pick coffee beans based on taste preferences, with static guides about coffee origins, roasting, and more.",
     learnings: [
@@ -155,6 +168,7 @@ export const apps: App[] = [
   },
   {
     title: "13 - Nurtura Aged Care App",
+    repository: "https://github.com/willchanpm/app-13-nurtura",
     slug: "nurtura-aged-care",
     description: "A mobile-first app to help families schedule and coordinate carers for elderly parents, including preferences, routines, and tasks.",
     learnings: [
@@ -167,6 +181,7 @@ export const apps: App[] = [
   },
   {
     title: "14 - AetherGlass (Smart Glasses Concept)",
+    repository: "https://github.com/willchanpm/app-14-aetherglass",
     slug: "aetherglass",
     description: "A fake marketing site for futuristic AI-powered smart glasses, complete with preorder CTA and product mockups.",
     learnings: [
@@ -179,6 +194,7 @@ export const apps: App[] = [
   },
   {
     title: "15 - VitaeAI (Resume & Cover Letter Editor)",
+    repository: "https://github.com/willchanpm/app-15-VitaeAI",
     slug: "vitaeai",
     description: "An AI-powered tool that tailors your resume and cover letter to a job description. Built to help me with job hunting.",
     learnings: [
@@ -191,6 +207,7 @@ export const apps: App[] = [
   },
   {
     title: "16 - Snaake",
+    repository: "https://github.com/willchanpm/app-16-snaake",
     slug: "snaake",
     description: "A stylised clone of Snake with a retro feel. Built to improve mobile gameplay UX and experiment with adding music.",
     learnings: [
@@ -203,6 +220,7 @@ export const apps: App[] = [
   },
   {
     title: "17 - StrataHQ (Body Corporate App)",
+    repository: "https://github.com/willchanpm/app-17-stratahq",
     slug: "stratahq",
     description: "A proof-of-concept tool for managing strata committees, schedules, and notices. Inspired by gaps in Australian software.",
     learnings: [
@@ -215,6 +233,7 @@ export const apps: App[] = [
   },
   {
     title: "18 - AIQ (AI Knowledge Quiz)",
+    repository: "https://github.com/willchanpm/app-18-aiq",
     slug: "aiq",
     description: "A quick quiz app to test how much users really understand AI, with an accompanying knowledge base on practical AI at work.",
     learnings: [
@@ -228,6 +247,7 @@ export const apps: App[] = [
   },
   {
     title: "19 - Sushi Sensei",
+    repository: "https://github.com/willchanpm/app-19-sushi-sensei",
     slug: "sushi-sensei",
     description: "A knowledge app for everything sushi: types, etiquette, preparation, and a base for broader food culture content.",
     learnings: [
@@ -240,6 +260,7 @@ export const apps: App[] = [
   },
   {
     title: "20 - Aether Agent (AI Travel Planner)",
+    repository: "https://github.com/willchanpm/app-20-aether-agent",
     slug: "aether-agent",
     description: "An agentic AI app that plans personalised trips via tool-calling. Built with a FastAPI backend and GPT orchestration.",
     learnings: [
@@ -253,6 +274,7 @@ export const apps: App[] = [
   },
   {
     title: "21 - Hangtime (Climbing Gym Finder)",
+    repository: "https://github.com/willchanpm/app-21-hangtime",
     slug: "hangtime",
     description: "A community-focused climbing gym finder that lets you filter by features and connect with other climbers.",
     learnings: [
@@ -265,6 +287,7 @@ export const apps: App[] = [
   },
   {
     title: "22 - Assetly (Net Worth Visualiser)",
+    repository: "https://github.com/willchanpm/app-22-assetly",
     slug: "assetly",
     description: "A personal finance tool that lets you map out assets and liabilities to understand your net worth visually.",
     learnings: [
@@ -277,6 +300,7 @@ export const apps: App[] = [
   },
   {
     title: "23 - Blindhire (CV Scrubber)",
+    repository: "https://github.com/willchanpm/app-23-blindhire",
     slug: "blindhire",
     description: "An app that removes demographic data from CVs to reduce bias in the hiring process and help focus on real experience.",
     learnings: [
@@ -289,6 +313,7 @@ export const apps: App[] = [
   },
   {
     title: "24 - Discovr (PM Discovery Assistant)",
+    repository: "https://github.com/willchanpm/app-24-discovr",
     slug: "discovr",
     description: "An assistant that helps product managers gather insights from uploaded notes and files, then generate next steps using GPT.",
     learnings: [
@@ -301,6 +326,7 @@ export const apps: App[] = [
   },
   {
     title: "25 - Dimensio (Dimension Converter)",
+    repository: "https://github.com/willchanpm/app-25-dimensio",
     slug: "dimensio",
     description: "A handy unit conversion tool for interior design, converting between metric and imperial with custom formatting options.",
     learnings: [
@@ -313,6 +339,7 @@ export const apps: App[] = [
   },
   {
     title: "26 - Fake Tetris (Zetris)",
+    repository: "https://github.com/willchanpm/app-26-definitely-not-tetris",
     slug: "zetris",
     description: "A tongue-in-cheek Tetris clone that mostly gives you the dreaded Z-block. Built to experiment with game logic and styling.",
     learnings: [
@@ -325,6 +352,7 @@ export const apps: App[] = [
   },
   {
     title: "27 - Is It Hotdog? (Pizza Edition)",
+    repository: "https://github.com/willchanpm/app-27-not-pizza",
     slug: "is-it-hotdog",
     description: "An AI-powered image classifier inspired by the classic 'Not Hotdog' app from Silicon Valley — this time detecting pizza instead.",
     learnings: [
@@ -337,6 +365,7 @@ export const apps: App[] = [
   },
   {
     title: "28 - Beyond Relativity",
+    repository: "https://github.com/willchanpm/app-28-beyond-relativity",
     slug: "beyond-relativity",
     description: "A visual explainer app covering physics concepts that challenge classical relativity, like black holes, the Big Bang, and quantum effects.",
     learnings: [
@@ -349,6 +378,7 @@ export const apps: App[] = [
   },
   {
     title: "29 - QuickSplit (Receipt Splitter)",
+    repository: "https://github.com/willchanpm/app-29-quicksplit",
     slug: "quicksplit",
     description: "A tool to split receipts by scanning a photo, identifying items, and generating a QR code or share link so friends can select and pay.",
     learnings: [
@@ -361,6 +391,7 @@ export const apps: App[] = [
   },
   {
     title: "30 - 30 in 30 Directory",
+    repository: "https://github.com/willchanpm/app-30-30-in-30",
     slug: "30-in-30-directory",
     description: "The final app. A directory of all 30 projects, complete with descriptions, learnings, and links to each live build.",
     learnings: [
